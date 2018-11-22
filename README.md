@@ -1,5 +1,5 @@
 # IR Remote Learner
-With out our IR Remote Learner kit, you will be able to learn the custom codes of those hard to replace remotes. Running off a 9V battery, this portable unit includes a keypad and well-lit display to make the job easy.									
+With our IR Remote Learner kit, you will be able to learn the custom codes of those hard to replace remotes. Running off a 9V battery, this portable unit includes a keypad and well-lit display to make the job easy.									
 
 ## Bill of Materials
 | Qty | Code | Description |
