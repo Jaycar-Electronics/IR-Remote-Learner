@@ -13,6 +13,7 @@ With our IR Remote Learner kit, you will be able to learn the custom codes of th
 |1 | [PH9235](http://jaycar.com.au/p/PH9235) | 9V Battery Holder
 |1 | [SS0834](http://jaycar.com.au/p/SS0834) | Micro slide switch
 |1 | [WB2022](http://jaycar.com.au/p/WB2022) | Cat5 solid core cable.
+|1 | [HM3212](http://jaycar.com.au/p/HM3212) | 40 Pin header row
 
 ###### Optional Extras:
 * [WW4346](http://jaycar.com.au/p/WW4346) Blue Wire wrap (other colours available)
