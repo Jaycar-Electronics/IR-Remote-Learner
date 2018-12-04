@@ -75,16 +75,16 @@ Firstly: begin with the end in mind:
 
 Snip and place header row connections as shown above.
 
-Then place the battery holder where you want it. I opted to place the power pins along `row 13`.
+Place the battery holder where you want it. I opted to place the power pins along `row 13`.
 ![](images/battery.jpg)
 
 Right next to this, we'll place about 4cm of stripped copper wire from the ethernet cable in the hole next to it and solder that into place (remove the battery pack to solder).
 
-Then wrap around and place into the hole on the other side of the battery connector:
+Wrap around and place into the hole on the other side of the battery connector:
 
 ![](images/wrap.jpg)
 
-when you poke the wire through the other side, place the battery holder back in place and pull on the wires, so that the loop can get tight and flush against the legs.
+When you poke the wire through the other side, place the battery holder back in place and pull on the wires, so that the loop can get tight and flush against the legs.
 
 Remove the battery connector and solder in place without disturbing the copper wire, you should get something like this on the top side of your board:
 
@@ -130,7 +130,7 @@ The rest of the connections can be a bit of a mess but I'll try to go through th
 
 Place in the arduino in the lower corner of the board, you should find that the pins themselves will keep it in place and you shouldn't have to pre-emptively solder it. Make sure the VIN and GND connections are proper while you're at it and rework them if needed.
 
-then make the following connections.
+Make the following connections.
 
 ###### Power
 * Bridge a connection between `L8`, `L10`, `O8` and `O9`
