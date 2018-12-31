@@ -44,17 +44,19 @@ The code was developed with these versions, your versions and results may be dif
 | 13 | LCD | CLK | LCD SPI Data clock |
 
 ###### Power:
-| Nano | Connects to | Done? |
-| ---- | ---- | --- |
-| 5V | LCD_VCC | [ ] |
-| | IRRecv_VCC (middle pin) | [ ] |
-| | Keypad VCC |  [ ] |
-| GND | LCD_GND  | [ ] |
-| | Keypad GND| [ ] |
-| | IRRecv_GND (-) | [ ] |
-| | IRTrans_GND (-) | [ ]|
-| | 9V Battery Negative | [ ]  |
 
+* 5V 
+  - [ ] LCD_VCC
+  - [ ] IRRecv_VCC (middle pin)
+  - [ ] Keypad VCC
+  
+* GND
+  - [ ] LCD_GND
+  - [ ] Keypad GND
+  - [ ] IRRecv_GND (-) 
+  - [ ] IRTrans_GND (-)
+  - [ ] 9V Battery Negative
+  
 * 9V Battery positive rail will connect to the VIN pin on the nano, through the SS0834 micro switch.
 
 
