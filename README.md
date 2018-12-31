@@ -16,6 +16,7 @@ With our IR Remote Learner kit, you will be able to learn the custom codes of th
 |1 | [HM3212](http://jaycar.com.au/p/HM3212) | 40 Pin header row
 
 ###### Optional Extras:
+* [WC7709](http://jaycar.com.au/p/WC7709) Mini USB lead for NANO
 * [WW4346](http://jaycar.com.au/p/WW4346) Blue Wire wrap (other colours available)
 
 
@@ -64,32 +65,33 @@ The code was developed with these versions, your versions and results may be dif
 
 #### Components
 
-First step is to remove the header pins from all components (except for nano) as we'll be re-arranging the layout. Also snip header pins where needed, with 2 lots of 3 for the IR sensor (just for a bit of strength).
+First step is to remove the header pins from all components (except for nano) as we'll be re-arranging the layout. You can read how to do this on [this tutorial](https://github.com/Jaycar-Electronics/databook/blob/master/tutorials/RemovingHeaders.md)
+
+Also snip header pins into groups of 8, 12, and 3 lots of 3.
+
 ![](images/components.jpg)
 
 #### Battery connector
-As the battery has to be connected on the underside "solder pad" side, there's a bit of a trick to mount the battery holder.
+As we're attaching the battery on the underside of the PCB board, there's a bit of a trick to mount the battery holder.
 What we're aiming to do is to make a bit of copper on the top side of the board for the battery connector to solder to.
 
-Firstly: begin with the end in mind:
+Firstly, snip and place header row connections as shown below.
 
 ![](images/pins.jpg)
-
-Snip and place header row connections as shown above.
 
 Place the battery holder where you want it. I opted to place the power pins along `row 13`.
 
 ![](images/battery.jpg)
 
-Right next to this, we'll place about 4cm of stripped copper wire from the ethernet cable in the hole next to it and solder that into place (remove the battery pack to solder).
+Right next to the battery pins, we'll place about 4 cm of copper wire (from the ethernet cable, stripped) and solder in place. You can remove the battery holder once you know where you're placing the wires. 
 
-Wrap around and place into the hole on the other side of the battery connector:
+Then place the battery holder back, wrap the copper around the terminals, and place into the hole on the other side of the battery terminals:
 
 ![](images/wrap.jpg)
 
 When you poke the wire through the other side, place the battery holder back in place and pull on the wires, so that the loop can get tight and flush against the legs.
 
-Remove the battery connector and solder in place without disturbing the copper wire, you should get something like this on the top side of your board:
+Poke the wire through and under the battery holder so you can pull on them, and tighten up the loop so it is as small and flush on the top side of the board as you can make it. Remove the battery connector and solder in place without disturbing the copper wire, you should get something like this on the top side of your board:
 
 ![](images/wrapped.jpg)
 
