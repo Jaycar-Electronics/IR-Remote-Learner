@@ -27,7 +27,7 @@ The code was developed with these versions, your versions and results may be dif
 | --- | --- | --- |
 | Adafruit_GFX | Adafruit | 1.0.0
 | Adafruit_PCD8544 | Adafruit | 1.2.9
-| IRRemote | sheriff | 2.2.3
+| IRRemote | shirriff | 2.2.3
 | EEPROM | Arduino | 1.8.5 (with ide) |
 
 ## Connection table
@@ -60,7 +60,7 @@ The code was developed with these versions, your versions and results may be dif
 
 ## Assembly
 
-#### components
+#### Components
 
 First step is to remove the header pins from all components (except for nano) as we'll be re-arranging the layout. Also snip header pins where needed, with 2 lots of 3 for the IR sensor (just for a bit of strength).
 ![](images/components.jpg)
@@ -76,6 +76,7 @@ Firstly: begin with the end in mind:
 Snip and place header row connections as shown above.
 
 Place the battery holder where you want it. I opted to place the power pins along `row 13`.
+
 ![](images/battery.jpg)
 
 Right next to this, we'll place about 4cm of stripped copper wire from the ethernet cable in the hole next to it and solder that into place (remove the battery pack to solder).
@@ -166,14 +167,19 @@ Programming is simple, just install the libraries and download the arduino code,
 
 ## Use
 
-To find a code, power up the unit and point the remote to the IR receiver ( on the side). when you press the button the screen should show a readout of the code interpreted.
-You can then press a button to store it into that particular button.
+To find a code, power up the unit and point the remote you want to learn from towards the IR receiver (on the side). When the Learner decodes an IR signal, the screen should show a readout of the code interpreted. You can then press any button on the Learner remote to store it into that particular button.
 
 Once the screen has cleared, you can press a button to fire the previously stored remote code
 
 It will remember codes through power cycles / battery changes, as it writes the code to EEPROM.
 
+### Usage notes
+
+This is a very simple basis for IR remote learning; We have found that some remotes such as panasonic or foxtel remotes will display multiple codes all right after each other; this could be due to how large the signal is coming from those remotes and so will have to be modified in the code.
+
+As always, we are looking forward to pull requests. :)
+
 ## Future Improvements.
 
 * While it's untested, the wireless modules should provide some additional remote control interfacing.
-* Try to design and print a 3D case.
+* This should be able to fit in a 3D printed case if you are so-inclined.
